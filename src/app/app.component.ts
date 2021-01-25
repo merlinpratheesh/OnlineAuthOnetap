@@ -29,10 +29,10 @@ export class AppComponent {
     this.OnlineCheck = this.myonline.pipe(
       switchMap((onlineval: any) => {
         console.log('31',onlineval);
-        if (onlineval === true) 
+        if (onlineval === false) 
         alert('check internet Connection');
         else{
-          alert('check internet Connection');
+          
         }
         return of(onlineval);
       }));
