@@ -124,5 +124,8 @@
       }
     }
   },
-  "defaultProject": "OnlineAuthOnetap"
+  "defaultProject": "OnlineAuthOnetap",
+  "cli": {
+    "analytics": "c25c21fb-9704-4145-b5d5-d1a2845a874f"
+  }
 }
